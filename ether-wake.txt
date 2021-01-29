@@ -1,0 +1,2 @@
+ether-wake.shスクリプトは以下のように実行するコマンドとする予定である。
+ether-wake.sh <wol発行元のIP address> <wol実行先のMAC address>
