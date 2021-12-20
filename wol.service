@@ -6,3 +6,6 @@ After=syslog.target network.target network-online.target multi-user.target
 Type=oneshot
 ExecStart=/var/adm/bin/ether-wake.sh 192.168.11.11 00:de:ad:be:ef:00
 RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
